@@ -13,7 +13,7 @@ body{
     margin: 0 auto;
 }
 .header>h1{
-    background:rgb(142, 43, 160) ;
+    background:rgb(131, 57, 122) ;
    display: inline-block;
    padding: 10px 20px;
    border-radius: 5px;
@@ -29,7 +29,7 @@ body{
   
     left: 35%;
     height: 150%;
-    background: #4a1a4e;
+    background: rgb(78, 38, 73);
     border-radius: 10px;
 }
 
@@ -52,7 +52,7 @@ body{
     font-size: 25px;
     font-weight: 800;
     background: rgb(62,101,168);
-    background: linear-gradient(90deg, rgba(62,101,168,1) 24%, rgba(147,56,137,1) 90%);
+    background: linear-gradient(90deg, rgb(50, 84, 143) 24%, rgb(131, 57, 122) 90%);
     /* background-image: radial-gradient(circle, #5c0067 10%, #00d4ff 120%); */
     color: white;
     height: 130px;
@@ -63,6 +63,9 @@ body{
    position: absolute;
     bottom: 25px;
     display: flex;
-    justify-content:space-around;
-    text-align: center;
+    
+    
+}
+.one ,.two.three,.four{
+    margin-left: 25px;
 }

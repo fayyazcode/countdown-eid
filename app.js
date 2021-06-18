@@ -21,4 +21,7 @@ document.getElementById('two').innerHTML=" Hours"
 document.getElementById('three').innerHTML=" Minutes"
 document.getElementById('four').innerHTML=" Seconds"
 },1000);
+function bg(){
+var a=document.getElementById('head').style.backgroundImage="url(a.gif)"
 
+}
